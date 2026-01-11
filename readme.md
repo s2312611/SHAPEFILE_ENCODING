@@ -5,10 +5,11 @@
 ``` text
 SHAPEFILE_ENCODING/                     シェープファイルの文字エンコード
 ├── Sources/
-│   ├── overwrite.bash                  バッシュ・スクリプト（上書を許可）
-│   ├── overwrite.ps1                   パワーシェル・スクリプト（上書を許可）
-│   ├── preserve.bash                   バッシュ・スクリプト（上書を禁止）
-│   └── preserve.ps1                    パワーシェル・スクリプト（上書を禁止）
+│   └── ShiftJIS/                       文字エンコードをシフトＪＩＳに設定する
+│       ├── overwrite.bash              バッシュ・スクリプト（上書を許可）
+│       ├── overwrite.ps1               パワーシェル・スクリプト（上書を許可）
+│       ├── preserve.bash               バッシュ・スクリプト（上書を禁止）
+│       └── preserve.ps1                パワーシェル・スクリプト（上書を禁止）
 ├── license.md                          ＭＩＴライセンス
 └── readme.md                           説明書
 ```
@@ -20,10 +21,11 @@ SHAPEFILE_ENCODING/                     シェープファイルの文字エン�
 ``` text
 SHAPEFILE_ENCODING/                     Shapefile Character Encoding
 ├── Sources/
-│   ├── overwrite.bash                  Bash Script (Allow Overwriting)
-│   ├── overwrite.ps1                   PowerShell Script (Allow Overwriting)
-│   ├── preserve.bash                   Bash Script (Prohibit Overwriting)
-│   └── preserve.ps1                    PowerShell Script (Prohibit Overwriting)
+│   └── ShiftJIS/                       Set character encoding to ShiftJIS
+│       ├── overwrite.bash              Bash Script (Allow Overwriting)
+│       ├── overwrite.ps1               PowerShell Script (Allow Overwriting)
+│       ├── preserve.bash               Bash Script (Prohibit Overwriting)
+│       └── preserve.ps1                PowerShell Script (Prohibit Overwriting)
 ├── license.md                          MIT License
 └── readme.md                           Manual
 ```
