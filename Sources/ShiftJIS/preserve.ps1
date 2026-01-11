@@ -1,6 +1,6 @@
 Get-ChildItem -Recurse -Filter *.shp | ForEach-Object {
-    $ShapeFile = $_
-    $Name = Join-Path -Path $ShapeFile.DirectoryName -ChildPath $ShapeFile.BaseName
+    $Shapefile = $_
+    $Name = Join-Path -Path $Shapefile.DirectoryName -ChildPath $Shapefile.BaseName
     $CodePageFile = "$Name.cpg"
     if (
         -not (Test-Path -Path $CodePageFile)
