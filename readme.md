@@ -12,6 +12,11 @@
 
 ## スクリプトのダウンロード
 
+- [最新版のバッシュ・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.bash)
+- [最新版のバッシュ・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.bash)
+- [最新版のパワーシェル・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.ps1)
+- [最新版のパワーシェル・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.ps1)
+
 ## ディレクトリ構造
 
 ``` text
@@ -39,6 +44,11 @@ Keywords: Geographic Information System (GIS), ArcGIS, QGIS, Character Encoding,
 - [Directory Structure](#directory-structure)
 
 ## Script Download
+
+- [Latest Version of Bash Script (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.bash)
+- [Latest Version of Bash Script (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.bash)
+- [Latest Version of PowerShell Script (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.ps1)
+- [Latest Version of PowerShell Script (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.ps1)
 
 ## Directory Structure
 
