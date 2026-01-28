@@ -4,6 +4,14 @@
 
 キーワード：地理情報システム（ＧＩＳ）、ＡｒｃＧＩＳ、ＱＧＩＳ、文字エンコード、シフトＪＩＳ（`SJIS`）、シェープファイル（`.shp`）、コードページファイル（`.cpg`）、バッシュ（`.bash`、`.sh`）、パワーシェル（`.pwsh`）。
 
+## 目次
+
+- [Manual in English](#shapefile-character-encoding)
+- [スクリプトのダウンロード](#スクリプトのダウンロード)
+- [ディレクトリ構造](#ディレクトリ構造)
+
+## スクリプトのダウンロード
+
 ## ディレクトリ構造
 
 ``` text
@@ -23,6 +31,14 @@ SHAPEFILE_ENCODING/                     シェープファイルの文字エン�
 We are internationally moving toward UTF-8 as the standard character encoding. Yet, shapefiles published by Japanese government agencies are encoded exclusively in Shift JIS. If GIS software loads such shapefiles, text may become garbled. To prevent it, this project provides Bash/PowerShell scripts that add a code page file to each shapefile.
 
 Keywords: Geographic Information System (GIS), ArcGIS, QGIS, Character Encoding, Shift JIS (`SJIS`), Shapefile (`.shp`), Code Page File (`.cpg`), Bash (`.bash`, `.sh`), and PowerShell (`.pwsh`).
+
+## Table of Contents
+
+- [日本語版説明書](#シェープファイルの文字エンコード)
+- [Script Download](#script-download)
+- [Directory Structure](#directory-structure)
+
+## Script Download
 
 ## Directory Structure
 
