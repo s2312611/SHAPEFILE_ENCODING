@@ -12,12 +12,12 @@
 
 ## スクリプトのダウンロード
 
-- [バッシュ・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.bash)
-- [バッシュ・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.bash)
-- [パワーシェル・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.ps1)
-- [パワーシェル・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.ps1)
-- [コマンドプロンプト・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.dat)
-- [コマンドプロンプト・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.dat)
+- [バッシュ・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/overwrite.bash)
+- [バッシュ・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/preserve.bash)
+- [パワーシェル・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/overwrite.ps1)
+- [パワーシェル・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/preserve.ps1)
+- [コマンドプロンプト・スクリプト（上書を許可）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/overwrite.dat)
+- [コマンドプロンプト・スクリプト（上書を禁止）](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/preserve.dat)
 
 リンクをクリックすると、最新版のスクリプトがブラウザーに表示されます。ブラウザーの機能で保存して下さい（通常のショートカットキー：`Ctrl/Cmd + S`）。或いは、リンクをコピーして、バッシュでは`curl --output $出力ファイル $リンク`、パワーシェルでは`Invoke-WebRequest -OutFile $出力ファイル -Uri $リンク`を実行して保存できます。但し、`$出力ファイル`は保存先のファイルへのパスに、`$リンク`はコピーしたリンクに置き換えて下さい。
 
@@ -51,12 +51,12 @@ Keywords: Geographic Information System (GIS), ArcGIS, QGIS, Character Encoding,
 
 ## Script Download
 
-- [Bash Script (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.bash)
-- [Bash Script (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.bash)
-- [PowerShell Script (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.ps1)
-- [PowerShell Script (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.ps1)
-- [Command Prompt (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/overwrite.dat)
-- [Command Prompt (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Ver.01/Sources/ShiftJIS/preserve.dat)
+- [Bash Script (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/overwrite.bash)
+- [Bash Script (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/preserve.bash)
+- [PowerShell Script (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/overwrite.ps1)
+- [PowerShell Script (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/preserve.ps1)
+- [Command Prompt (Allow Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/overwrite.dat)
+- [Command Prompt (Prohibit Overwriting)](https://raw.githubusercontent.com/s2312611/SHAPEFILE_ENCODING/Default/Sources/ShiftJIS/preserve.dat)
 
 Click the link to display the latest version of the script on browser. Save it using the browser's function (common shortcut key: `Ctrl/Cmd + S`). Alternatively, copy the link and execute `curl --output $outfile $link` in Bash or `Invoke-WebRequest -OutFile $outfile -Uri $link` in PowerShell, replacing `$outfile` with the path to the file where you would like to save it and `$link` with the link you copied earlier.
 
