@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 find . -type f -name "*.shp" | while
-    read -r shapefile
+    IFS= read -r shapefile
 do
-    name="${shapefile%.shp}"
-    codepagefile="$name.cpg"
+    codepagefile="${shapefile%.shp}.cpg"
     if
-        [ ! -e "$codepagefile" ]
+        [ -e "$codepagefile" ]
     then
-        printf "SJIS\n" > "$codepagefile"
+        :
+    else
+        echo "SJIS" > "$codepagefile"
     fi
 done
