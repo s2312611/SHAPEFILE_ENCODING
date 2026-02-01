@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-find . -type f -name "*.shp" | while
-    read -r shapefile
+find . -type f -name "*.shp" -print0 | while
+    IFS= read -r -d "" shapefile
 do
-    name="${shapefile%.shp}"
-    codepagefile="$name.cpg"
-    printf "SJIS\n" > "$codepagefile"
+    codepagefile="${shapefile%.shp}.cpg"
+    echo "SJIS" > "$codepagefile"
 done
