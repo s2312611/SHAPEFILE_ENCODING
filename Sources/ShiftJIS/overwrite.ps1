@@ -1,7 +1,5 @@
 #!/usr/bin/env pwsh
 Get-ChildItem -Recurse -Filter *.shp | ForEach-Object {
-    $Shapefile = $_
-    $Name = Join-Path -Path $Shapefile.DirectoryName -ChildPath $Shapefile.BaseName
-    $CodePageFile = "$Name.cpg"
-    Set-Content -Path $CodePageFile -Value "SJIS`n"
+    $CodePageFile="$(Join-Path -Path $_.DirectoryName -ChildPath $_.BaseName).cpg"
+    Set-Content -Path "$CodePageFile" -Value "SJIS"
 }
